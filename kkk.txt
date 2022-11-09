@@ -1,0 +1,45 @@
+* Hooks: 
+- chỉ có thể dk gọi bên tronng các thành phần hàm React
+- chỉ có thể dk gọi ở cấp cao nhất của một thành phần
+- k thể có điều kiện 
+=> Hook sẽ k hoạt động trong các thành phần lớp react
+*- Hook useState: 
+- cho phép chúng ta theo dõi một thành phần hàm
+- State thường đè cập đến thuộc tính cần theo dõi trong một ứng dụng
+- useState có thể dk sử dụng để theo dõi các chuỗi, số, booleans,  mảng, đối tượng và bất kỳ sự kết hợp nào của chúng!
+	* nếu có tác vụ phức tạp thì sử dụng callback
+*- Hook useEffect:
+- Cho phép b thực hiện các hiếu ứng phụ trong các thành phần của minhf
+- Một số ví dụ về ta...
+- useEffect chấp nhận hai đối số:
+	useEffect(<function>, <dependency>)
+	+ k có dependencies thì useEffect luôn luôn chạy 
+	* có dêpndencies nhưng lại mẩng rỗng thì chỉ chạy một lân
+	+CÓ depeendencies thì useEffect phụ thuộc cái chuyền vào[useState]
+** Component life cycles:
+*- Mounting: thực thi các sự kiện ( chỉ diễn ra đúng một lân)\
+  + 
+*- updating:
+* Unmounting: gỡ các sự kiện 
+
+
+
+*React Context là một cách để quản lý trạng thái trên toàn cầu.
+- Có thể sử dụng cùng với useState Hook để chia sẽ trạng thái giữa các thành phần lồng nhau dễ dàng hơn so với useState một mình một mình
+
+thư viện ui: dialog
+seach: useDebounce
+https://www.digitalocean.com/community/tutorials/react-axios-react
+
+xác nhận xoá
+https://codesandbox.io/s/delete-product-dialog-vsrxt?file=/src/App.js  
+
+- redux toolkit:  thư viện immerjs
+seach
+https://medium.com/geekculture/create-a-simple-search-component-in-react-js-using-react-hooks-710c1dfe8b58
+
+basic: 
+https://nccasia.github.io/ncc-react-basic/
+
+Router:
+https://viblo.asia/p/react-router-v6-gGJ59oVpZX2

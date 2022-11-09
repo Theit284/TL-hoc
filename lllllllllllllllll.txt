@@ -1,0 +1,33 @@
+react hook
+usestate trong reactjs
+Prop reactjs
+
+truyền state
+
+https://youtu.be/eGA5TCdjcSE
+
+- events: add / remove event listener
+- obsever pattern: subscribe / unsubscribe 
+- closure
+- timers: setInterval, setTimeout, clearInterval, clearTimeout
+- useStase
+- ===
+- call api
+
+
+an + a,i, e,o,u 
+
+https://dictionary.cambridge.org/vi/dictionary/english/side-effect: từ điển
+
+ Github, NPMJS, UNPKG 
+
+jsfiddie.net
+
+react-icon: https://mui.com/material-ui/icons/ =>i: https://mui.com/material-ui/getting-started/installation/
+
+*Câu hỏi pv
+-flex
+-js có những kiểu dl (data type)
+- reponsite 
+
+https://www.robinwieruch.de/react-remove-item-from-list/ ****

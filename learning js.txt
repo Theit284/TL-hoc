@@ -1,0 +1,61 @@
+*String methebs
+-length: trả về độ dài của một chuổi\
++ eg. let txt='Lê Tien The'
+	let length = txt.length
+
+-slice(): Trích suất một chuổi và trả về phầm dk trích xuất trong một chuỗi mới.
++eg:    let str = "Apple, Banana, Kiwi";
+	let part = str.slice(7, 13);
+
+- substring(): cũng giống như slice(). nhưng  khác biệt là các giá trị bắt đầu và kết thúc nhỏ hơn 0 được coi là 0 trong substring()
+
+- substr() cũng giống như sline(). nhưng khác biệt là tham số thứ hai chỉ định độ dài của par được trích xuất
++eg:    let str = "Apple, Banana, Kiwi";
+	let part = str.substr(7, 6);
+
+- replace(): thay thế một giá trị dk chỉ đinjh bằng một giá trị khác trong một chuỗi
++ eg:   let text = "Please visit Microsoft!";
+	let newText = text.replace("Microsoft", "W3Schools");\
+
+
+- toUpperCase(): chuyển chuổi thành chữ hoa
+- toLowerCase(): chuyển chuổi thành chữ thường
++eg:    let text1 = "Hello World!";       // String
+	let text2 = text1.toLowerCase();  // text2 is text1 converted to lower
+
+-concat(): nối hai chuỗi lại với nhaudSta
++eg:    let text1 = "Hello";
+	let text2 = "World";
+	let text3 = text1.concat(" ", text2);
+
+-trim(): loại bỏ khoảng trắng từ hai của một chuỗi
+
+-padStart(): đệm một chuổi với một chuỗi khác
++eg:    let text = "5";
+	let padded = text.padStart(4,"0");
+
+-padEnd(): đệm một chuổi với một chuỗi khác
+
+-chatAt(): trả về ký tự tại một chỉ mục (vị trí) được chỉ định trong một chuỗi: \
++eg: let text = "HELLO WORLD";
+	let char = text.charAt(0);
+
+-chatCodeAt(): trả về mã unicode của ký tự tại chỉ mục dk chỉ định trong một chuổi
+
+-split: chuyển đổi một chuổi thành một mảng		
+
+
+
+https://youtu.be/fwDxnN97MTE
+
+
+phát âm chuẩn: https://dictionary.cambridge.org/vi/dictionary/english/union
+
+
+<label for="firstname">First name:</label>
+<input type="text" name="firstname" id="firstname"><br>
+
+<input type="checkbox" name="subscribe" id="subscribe">
+<label for="subscribe">Subscribe to newsletter</label>
+
+useMemo: 

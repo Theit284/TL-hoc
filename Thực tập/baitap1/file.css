@@ -1,0 +1,135 @@
+body{margin: 0px;padding: 0px;}
+.wrapper{ font-family: 'Times New Roman', Times, serif; text-align: center; }
+
+.fz{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    color: #4a4a4a;
+}
+.Nav_header{
+    background: #b2b2b2;
+    height: 557px;
+}
+.Nav_header_top {
+height: 100px;
+
+}
+.menu{
+    padding-top: 28px;
+   
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 28px  ;
+    color: #fff;
+    
+}
+.hotline{
+    color: #fff;
+    float: right;
+    padding-right: 200px;
+}
+
+.header_siteba{
+    color: #fff;
+    padding-top: 74px;
+}
+
+
+.header_siteba .text{
+    width: 160px;
+    height: 41px;
+    background-color: #fbad27;
+    display: inline-block;
+    border-radius: 28%;
+    overflow: hidden;
+}
+.header_siteba .text:hover{
+    cursor: pointer;
+}
+.header_siteba .text p{
+    line-height: 3px;
+    font-size: 19px;
+}
+.intro{
+    margin-top: 146px;
+    margin-left: 100px;
+}
+
+.intro .introl_text{
+    text-indent: 5px;
+}
+.intro ul li{
+    list-style: none;
+    float: left;
+}
+ul li img{
+    width: 67px;
+}
+ul li .introl_text{
+    margin-top: 16px ;
+    color: #fff;
+   
+}
+
+ul li .introl_text p{
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+/*end header*/
+
+.main_top{
+    margin-top: 63px;
+}
+
+.main_slide{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.main_slide ul li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    background-color: rgb(241, 237, 237);
+    border: 2px solid #fff;
+    height: 200px;
+    width: 300px;
+
+}
+
+.main_cotrol {
+    display: flex;
+    justify-content: center;
+}
+.main_cotrol ul li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    
+}
+.main_cotrol ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.main_cotrol ul li a:hover{
+    color: #fbad27;
+}
+
+.main_product {
+    margin-top: 26px;
+
+}
+.main_product p{
+    color: #6f6f6f;
+}

@@ -1,0 +1,30 @@
+figma.com/file/pMBx4Vc3FJNbUZfC8seL2v/FrontEndTest?node-id=4%3A36
+
+Lazy loading in React
+
+-React.memo: tránh cho việc render lại nhiều lần...
+
+-useMemo: tránh cho việc tính toán lại một function lặp đi lặp lại nhiêu mỗi lần componnent re-render
+
+
+
+*usestate and useReducer
+***usestate :
+	-1: Init state:0
+	-2: Actions:Up(state+1)/ Down(state-1)
+
+***useReducer:
+	-1: Init state:0
+	-2: Actions:Up(state+1)/ Down(state-1)
+	-3: Reducer
+	-4: Dispatch
+
+
+git:
+https://xuanthulab.net/lam-viec-voi-nhanh-branch-tao-nhanh-gop-nhanh-trong-git.html
+git stash: lưu trữ
+git stash pop: để ghi đè code nhánh khác qua
+//git merge: gộp nhánh lại với nhanh
+git log --oneline: log trang thái cmt 
++ git status: theo dõi trạng thái
++ git checkout <tên branch>: chuyển nhánh
